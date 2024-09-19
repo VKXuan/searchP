@@ -1,10 +1,8 @@
-```yml=1
 name: get stock price
 
 on:
   schedule:
     - cron: "*/5 9-14 * * 1-5“
-
 jobs:
   build:
     runs-on: ubuntu-latest
