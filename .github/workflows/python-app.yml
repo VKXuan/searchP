@@ -3,7 +3,7 @@ name: get stock price
 
 on:
   schedule:
-    - cron: &#34;*/5 * * * *&#34;
+    - cron: "*/5 9-14 * * 1-5“
 
 jobs:
   build:
