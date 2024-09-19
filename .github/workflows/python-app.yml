@@ -24,4 +24,3 @@ jobs:
 
       - name: Run Python script
         run: python test1.py
-```
