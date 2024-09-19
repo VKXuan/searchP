@@ -1,4 +1,4 @@
-	# 先導入後面會用到的套件
+# 先導入後面會用到的套件
 import requests # 請求工具
 from bs4 import BeautifulSoup # 解析工具
 import time # 用來暫停程式
