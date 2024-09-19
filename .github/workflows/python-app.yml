@@ -2,7 +2,7 @@ name: get stock price
 
 on:
   schedule:
-    - cron: "*/5 9-14 * * 1-5“
+    - cron: "*/5 1-6 * * 1-5"
 jobs:
   build:
     runs-on: ubuntu-latest
