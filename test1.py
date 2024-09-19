@@ -38,7 +38,7 @@ stock = ["1101","2330"]
 
 	    # 使用者 id
 
-	    chat_id="+886988665685"
+	    chat_id="@vkxuan"
 
 	    # bot 送訊息
 
