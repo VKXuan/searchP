@@ -5,19 +5,16 @@ import time # 用來暫停程式
  
 # 要爬的股票
 stock = ["1101","2330"]
-	for i in range(len(stock)): # 迴圈依序爬股價
+for i in range(len(stock)): # 迴圈依序爬股價
 
-	    # 現在處理的股票
+ # 現在處理的股票
+stockid = stock[i]
 
-	    stockid = stock[i]
+# 網址塞入股票編號
+url = "https://tw.stock.yahoo.com/quote/"+stockid+".TW"
 
-	    # 網址塞入股票編號
-
-	    url = "https://tw.stock.yahoo.com/quote/"+stockid+".TW"
-
-	    # 發送請求
-
-	    r = requests.get(url)
+# 發送請求
+r = requests.get(url)
 
 	    # 解析回應的 HTML
 
