@@ -2,6 +2,7 @@
 import requests  # 請求工具
 from bs4 import BeautifulSoup  # 解析工具
 import time  # 用來暫停程式
+from urllib.parse import quote_plus  #如果 message 包含特殊字符（如空格、符號等），你可能需要使用 urllib.parse.quote_plus() 來對訊息進行編碼
  
 # 要爬的股票
 stock = ["1101", "2330"]
