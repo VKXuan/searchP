@@ -20,7 +20,7 @@ jobs:
           pip install BeautifulSoup4
       
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Run Python script
         run: python test1.py
