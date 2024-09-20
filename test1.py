@@ -38,7 +38,7 @@ for i in range(len(stock)):  # 迴圈依序爬股價
 
         # 用 telegram bot 回報股價
         # bot token
-        token = "7702909345:AAH2mn5uangiAbAmnJJKcCY9ZNb6GzRjwsg"
+        token = "7618767736:AAGeGHP2ny6JcGmvm1k_B0ozNe4pMXMBXUU"
 
         # 使用者 id
         chat_id = "6382525799"
